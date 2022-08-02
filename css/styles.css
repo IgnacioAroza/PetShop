@@ -395,17 +395,17 @@ main {
 }
 
 @media screen and (min-width: 1440px) {
-    .top-container {
+    .top {
         display: flex;
         justify-content: space-between;
     }
     .nav-menu {
         display: flex;
     }
-    .nav-shadow {
+    /* .nav-shadow {
         display: none;
-    }
-    .container-header {
+    } */
+    .slide_container {
         justify-content: space-between;
     }
 
@@ -423,28 +423,28 @@ main {
     .slide-a {
         margin-right: 150px;
     }
-    .catalog-container {
+    .cards_productos {
         margin-left: 50px;
         margin-right: 50px;
     }
 
-    .contact-container {
+    #formulario {
         display: flex;
         width: 350px;
         justify-content: center;
         margin-left: 550px;
     }
 
-    .suscription-container {
+    .suscription_container {
         display: flex;
         justify-content: space-between;
     }
 
-    .h1-suscription {
+    .suscription {
         margin-left: 20px;
     }
 
-    .suscription-form {
+    .suscription_form {
         justify-content: flex-start;
     }
 
